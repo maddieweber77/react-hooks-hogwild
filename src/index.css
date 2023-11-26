@@ -150,3 +150,19 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+.hogs {
+  flex-wrap: wrap-reverse;
+  width:33%;
+  margin: 10px; /* Adjust the margin as needed */
+      background-color: lightpink; /* Adjust the background color as needed */
+}
+
+.hogs img {
+  width: 100%;
+}
+
+.pigs-container {
+  display: flex;
+      flex-wrap: wrap;
+}

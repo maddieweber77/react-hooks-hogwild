@@ -4,6 +4,7 @@ function Filter({hogs, handleSortedPigs, isSorted, handleSortedPigsWeight, isSor
   
 function sortHogs() {
     handleSortedPigs()
+
 }
 
 function sortHogsWeight() {

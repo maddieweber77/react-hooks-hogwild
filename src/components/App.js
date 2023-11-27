@@ -7,12 +7,11 @@ import hogs from "../porkers_data";
 function App() {
 
 
-
 	console.log(hogs)
 	return (
 		<div className="App">
 			<Nav />
-			<Piggies hogs={hogs} />
+			<Piggies hogs={hogs}/>
 		</div>
 	);
 }
